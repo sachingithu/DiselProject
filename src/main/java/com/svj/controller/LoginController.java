@@ -15,7 +15,7 @@ import com.svj.model.LoginModel;
 import com.svj.service.ILoginService;
 
 @RestController
-@RequestMapping("api/")
+@RequestMapping("Disel/api/")
 public class LoginController {
 	@Autowired
 	ILoginService service;
