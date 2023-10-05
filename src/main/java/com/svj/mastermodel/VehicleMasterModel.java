@@ -24,6 +24,10 @@ public class VehicleMasterModel implements Serializable {
 	
 	private String ratePerHours;
 
+	public VehicleMasterModel() {
+		super();
+	}
+
 	public VehicleMasterModel(Integer vehicleId, String vehicleType, String vehicleNumber, String ownerName,
 			String driverName, String ownerNo, String clientNo, String average, String selectRate,
 			String ratePerHours) {
